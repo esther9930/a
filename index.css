@@ -1,0 +1,322 @@
+.mediaViewInfo {
+	--web-view-name: 01;
+	--web-view-id: ID01;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: fit;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: ID01;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#ID01 {
+	position: absolute;
+	width: 1280px;
+	height: 800px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: 01;
+	--web-view-id: ID01;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: fit;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#Path_21 {
+	fill: rgba(248,248,248,1);
+}
+.Path_21 {
+	overflow: visible;
+	position: absolute;
+	width: 1280px;
+	height: 800px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Ellipse_15 {
+	fill: transparent;
+	stroke: rgba(243,130,0,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Ellipse_15 {
+	position: absolute;
+	overflow: visible;
+	width: 616px;
+	height: 616px;
+	left: 719px;
+	top: 92px;
+}
+#Ellipse_14 {
+	fill: transparent;
+	stroke: rgba(243,130,0,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Ellipse_14 {
+	position: absolute;
+	overflow: visible;
+	width: 616px;
+	height: 616px;
+	left: 640px;
+	top: 92px;
+}
+#Ellipse_12 {
+	fill: transparent;
+	stroke: rgba(243,130,0,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Ellipse_12 {
+	position: absolute;
+	overflow: visible;
+	width: 616px;
+	height: 616px;
+	left: 565px;
+	top: 92px;
+}
+#Ellipse_13 {
+	fill: transparent;
+	stroke: rgba(243,130,0,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Ellipse_13 {
+	position: absolute;
+	overflow: visible;
+	width: 616px;
+	height: 616px;
+	left: 493px;
+	top: 92px;
+}
+#Ellipse_11 {
+	fill: transparent;
+	stroke: rgba(243,130,0,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Ellipse_11 {
+	position: absolute;
+	overflow: visible;
+	width: 616px;
+	height: 616px;
+	left: 425px;
+	top: 92px;
+}
+#Ellipse_10 {
+	fill: transparent;
+	stroke: rgba(243,130,0,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Ellipse_10 {
+	position: absolute;
+	overflow: visible;
+	width: 616px;
+	height: 616px;
+	left: 353px;
+	top: 92px;
+}
+#All_content_copyright_esther_h {
+	left: 51px;
+	top: 758px;
+	position: absolute;
+	overflow: visible;
+	width: 269px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Castellar;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: rgba(0,0,0,1);
+}
+#ESTHER_HUANG {
+	left: 890px;
+	top: 361px;
+	position: absolute;
+	overflow: visible;
+	width: 872px;
+	white-space: nowrap;
+	line-height: 141px;
+	margin-top: -10px;
+	text-align: right;
+	font-family: Orator Std;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 121px;
+	color: rgba(0,0,0,1);
+}
+#portfolio {
+	left: 50px;
+	top: 412.8px;
+	position: absolute;
+	overflow: visible;
+	width: 71px;
+	white-space: nowrap;
+	transition: all 0.3s linear;
+	--web-animation: fadein 0.3s linear;
+	--web-action-type: page;
+	--web-action-target: 04.html;
+	cursor: pointer;
+	--web-state: portfolio.html;
+	text-align: center;
+	font-family: Book Antiqua;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(0,0,0,1);
+}
+#about {
+	left: 50px;
+	top: 340.8px;
+	position: absolute;
+	overflow: visible;
+	width: 47px;
+	white-space: nowrap;
+	transition: all 0.3s linear;
+	--web-animation: fadein 0.3s linear;
+	--web-action-type: page;
+	--web-action-target: 03.html;
+	cursor: pointer;
+	--web-state: about.html;
+	text-align: center;
+	font-family: Book Antiqua;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(0,0,0,1);
+}
+#Line_1 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_1 {
+	overflow: visible;
+	position: absolute;
+	width: 1px;
+	height: 188px;
+	left: 50.5px;
+	top: 127.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_2 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_2 {
+	overflow: visible;
+	position: absolute;
+	width: 1px;
+	height: 188px;
+	left: 50.5px;
+	top: 484.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_9 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_9 {
+	overflow: visible;
+	position: absolute;
+	width: 641px;
+	height: 1px;
+	left: 198.5px;
+	top: 400.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#HI {
+	left: 199px;
+	top: 257px;
+	position: absolute;
+	overflow: visible;
+	width: 61px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Book Antiqua;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 41px;
+	color: rgba(0,0,0,0.251);
+}
+#Im {
+	left: 204px;
+	top: 493px;
+	position: absolute;
+	overflow: visible;
+	width: 51px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Book Antiqua;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 41px;
+	color: rgba(0,0,0,0.251);
+}
+#estherhuang {
+	left: 45px;
+	top: 50px;
+	position: absolute;
+	overflow: visible;
+	width: 166px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Orator Std;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(0,0,0,1);
+}
